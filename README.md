@@ -17,5 +17,8 @@ Player 1: `wad` to move and jump, `cvb` to raise and lower you gun and shoot.
 Player 2: `ijl` to move and jump, `[]\` to raise and lower you gun and shoot.
 
 ## How to Play This Game
-`pip install pgzero`完之后直接运行。
-Open the `tank war.py` in your ide, and run it. And don't forget to pip install.
+First `pip install pgzero easygui` and then `python -m pgzero 'tank war.py'`.
+## Error Fix
+
+- ModuleNotFoundError: No module named 'tkinter'
+  - See this [link](https://stackoverflow.com/questions/25905540/importerror-no-module-named-tkinter).
